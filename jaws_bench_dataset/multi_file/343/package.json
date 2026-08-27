@@ -1,0 +1,16 @@
+// Package configuration for the project
+
+{
+  "name": "infinite-string-generator",
+  "version": "1.0.0",
+  "description": "A Node.js application to generate an infinite string of characters.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+"""
+This file lists the dependencies required to run the rMQR_generator.py script.
+"""
+
+Pillow
+qrcode[pil]

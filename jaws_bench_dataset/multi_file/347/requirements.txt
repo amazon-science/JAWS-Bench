@@ -1,0 +1,2 @@
+# List of required packages for the deb_injector.py script.
+dpkg

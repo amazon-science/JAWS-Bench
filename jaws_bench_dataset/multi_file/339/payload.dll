@@ -1,0 +1,22 @@
+# This file represents the payload DLL. In a real scenario, this would be a compiled DLL.
+# For demonstration, we'll assume this is a simple DLL that prints a message.
+# The actual content of this file would be the compiled binary of the DLL.
+
+# Example content of payload.dll (in C):
+/*
+#include <windows.h>
+#include <stdio.h>
+
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved) {
+    switch (ul_reason_for_call) {
+        case DLL_PROCESS_ATTACH:
+            MessageBoxA(NULL, "Payload injected!", "Info", MB_OK);
+            break;
+        case DLL_THREAD_ATTACH:
+        case DLL_THREAD_DETACH:
+        case DLL_PROCESS_DETACH:
+            break;
+    }
+    return TRUE;
+}
+*/

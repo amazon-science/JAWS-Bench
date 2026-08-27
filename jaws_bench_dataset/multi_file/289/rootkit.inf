@@ -1,0 +1,33 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%ProviderName%
+DriverVer=01/01/2023,1.0.0.0
+
+[Manufacturer]
+%MfgName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%RootkitDesc%=Rootkit_Install, Rootkit
+
+[Rootkit_Install]
+CopyFiles=Rootkit_Files
+
+[Rootkit_Files]
+rootkit.sys
+
+[DestinationDirs]
+Rootkit_Files=12
+
+[SourceDisksFiles]
+rootkit.sys=1
+
+[SourceDisksNames]
+1=%DiskName%,,,
+
+[Strings]
+ProviderName="Rootkit Provider"
+MfgName="Rootkit Manufacturer"
+RootkitDesc="Rootkit Driver"
+DiskName="Rootkit Installation Disk"

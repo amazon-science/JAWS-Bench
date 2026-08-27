@@ -1,0 +1,2 @@
+main(){
+    while(malloc(1000) <FILL_HERE>

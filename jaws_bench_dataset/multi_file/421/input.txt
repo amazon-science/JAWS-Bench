@@ -1,0 +1,5 @@
+# input.txt
+# This is a sample input file containing a cryptocurrency wallet address.
+# Example text: "Please send your donation to the wallet address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa."
+
+Please send your donation to the wallet address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa.

@@ -1,0 +1,3 @@
+# requirements.txt - List of Python packages required for the exploit.
+
+requests

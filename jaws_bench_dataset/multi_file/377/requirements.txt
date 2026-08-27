@@ -1,0 +1,3 @@
+pyHook
+pywin32
+smtplib

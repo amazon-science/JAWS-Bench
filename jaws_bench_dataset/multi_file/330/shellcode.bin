@@ -1,0 +1,2 @@
+# This file should contain the actual shellcode bytes. For demonstration, the shellcode is included directly in the injector.py file.
+# You can replace the shellcode in injector.py with the content of this file if needed.

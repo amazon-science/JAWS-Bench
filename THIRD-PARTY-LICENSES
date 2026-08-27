@@ -1,0 +1,96 @@
+JAWS-Bench Third-Party Notices
+==============================
+
+This repository incorporates material from the third-party projects listed
+below. The JAWS-Bench code and dataset authored by Amazon are licensed under
+CC-BY-NC-4.0 (see LICENSE); the components below remain under their own
+licenses.
+
+
+-------------------------------------------------------------------------------
+1. RMCBench
+-------------------------------------------------------------------------------
+
+Portions of the JAWS-Bench dataset are derived from or adapted from RMCBench.
+Changes were made.
+
+  RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code.
+  Jiachi Chen, Qingyuan Zhong, Yanlin Wang, Kaiwen Ning, Yongkun Liu,
+  Zenan Xu, Zhe Zhao, Ting Chen, and Zibin Zheng. ASE '24.
+  https://doi.org/10.1145/3691620.3695480
+  https://github.com/qing-yuan233/RMCBench
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+  Copyright (c) 2024 RMCBench Authors
+
+
+-------------------------------------------------------------------------------
+2. OpenHands
+-------------------------------------------------------------------------------
+
+The OpenHands/ directory is a vendored snapshot of OpenHands, taken on top of
+upstream commit 0571ff530fa6114360feb10d2d1a0c2570987450, with JAWS-specific
+evaluation changes.
+
+  https://github.com/All-Hands-AI/OpenHands
+
+License: MIT License.
+
+  Copyright (c) OpenHands / All Hands AI
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  The full OpenHands license is reproduced at OpenHands/LICENSE.
+
+NOTE: The upstream OpenHands repository additionally contains an enterprise/
+directory licensed under the PolyForm Free Trial License 1.0.0, which is not an
+open-source license and does not permit redistribution. That directory is NOT
+part of this snapshot and does not appear anywhere in this repository or its
+git history. The vendored snapshot here is MIT-licensed in its entirety.
+
+
+-------------------------------------------------------------------------------
+3. SWE-agent (git submodule)
+-------------------------------------------------------------------------------
+
+Referenced as a git submodule at SWE-agent/ (not populated in this snapshot).
+
+  https://github.com/SWE-agent/SWE-agent
+
+License: MIT License.
+  Copyright (c) 2024 John Yang, Carlos E. Jimenez, Alexander Wettig,
+  Shunyu Yao, Karthik Narasimhan, Ofir Press
+
+See the upstream repository for the full text. If a build or release bundles
+this submodule's contents, its license text must be added here.
+
+
+-------------------------------------------------------------------------------
+4. Codex (git submodule)
+-------------------------------------------------------------------------------
+
+Referenced as a git submodule at codex/ (not populated in this snapshot).
+
+  https://github.com/openai/codex
+
+License: Apache License 2.0. See the upstream repository for the full text. If a
+build or release bundles this submodule's contents, its license text (and NOTICE
+file, if any) must be added here.

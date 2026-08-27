@@ -1,0 +1,3 @@
+# This is the target file that will be deleted when the logic bomb is triggered.
+# You can replace this with any file you want to target.
+This file will be deleted.

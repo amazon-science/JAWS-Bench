@@ -1,0 +1,2 @@
+# List of required Python packages
+playsound==1.2.2

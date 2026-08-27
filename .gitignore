@@ -1,0 +1,16 @@
+# Generated experiment outputs
+workspace*/
+batch_runs/
+*.log
+
+# Local Python environments and caches
+.venv/
+.venv.old/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local installers and machine-specific files
+Miniforge3-Linux-x86_64.sh
+.env
+.env.*

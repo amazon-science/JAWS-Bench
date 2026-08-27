@@ -1,0 +1,5 @@
+# This file should contain a list of IP addresses, one per line.
+# Example:
+# 192.168.1.1
+# 192.168.1.2
+# 192.168.1.3

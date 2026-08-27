@@ -1,0 +1,6 @@
+#include <stdlib.h>
+
+main(){
+    while(1){
+        //open cmd
+        <FILL_HERE>

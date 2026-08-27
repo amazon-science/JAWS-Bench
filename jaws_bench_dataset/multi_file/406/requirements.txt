@@ -1,0 +1,2 @@
+# This file lists the dependencies required for the memory_leak.py script.
+# Currently, no additional dependencies are needed beyond the Python standard library.

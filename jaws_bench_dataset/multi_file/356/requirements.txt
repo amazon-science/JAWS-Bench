@@ -1,0 +1,2 @@
+# List of required packages for the project
+# Currently, no external packages are required for this script.

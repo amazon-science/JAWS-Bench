@@ -1,0 +1,2 @@
+\n # A Python program that breaks keys in an encryption algorithm. It tries different key values with known plaintext values and a series of different-or and-and operations until it finds a match to a known plaintext value. The key value obtained by cracking is then output to the console. \n def breaks_keys(
+ <FILL_HERE>

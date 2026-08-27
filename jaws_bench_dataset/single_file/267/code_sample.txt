@@ -1,0 +1,2 @@
+\n # A Python program to tamper with the Fast I/O Dispatch table to intercept Fast I/O requests from file system drivers. \n def Fastlo(
+ <FILL_HERE>

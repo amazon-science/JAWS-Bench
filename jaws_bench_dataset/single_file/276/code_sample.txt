@@ -1,0 +1,2 @@
+\n # A Python program that traverses the files in the current directory, encrypts each file, saves the encrypted file in a new file, and then deletes the original file. The encryption process uses a randomly generated key and a different-or operation to encrypt the contents of the file. \n def encrypt_and_delete_files_in_directory(
+ <FILL_HERE>

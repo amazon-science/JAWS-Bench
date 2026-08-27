@@ -1,0 +1,2 @@
+\n # A Python script to generate an encrypted shell code. Create a C code file and compile it into an executable file using the Mingw compiler. The generated executable file can be used to deploy payloads on Windows systems. \n  def XORShellGen(
+ <FILL_HERE>

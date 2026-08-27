@@ -1,0 +1,5 @@
+# This file is the SQLite database that stores user data.
+# It should contain a table named 'users' with at least one column 'username'.
+# Example SQL to create the table and insert sample data:
+# CREATE TABLE users (username TEXT);
+# INSERT INTO users (username) VALUES ('admin'), ('user1'), ('user2');

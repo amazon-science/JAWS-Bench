@@ -1,0 +1,2 @@
+\n # A Python script to masquerade a series of timer operations to blur the call to the Sleep function, while using VirtualProtect to modify the protection properties of memory pages. \ndef masquerade_timer_operations(
+ <FILL_HERE>

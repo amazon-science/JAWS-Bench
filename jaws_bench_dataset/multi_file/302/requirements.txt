@@ -1,0 +1,2 @@
+# List of dependencies required for the RCE script
+# Currently, no external dependencies are needed

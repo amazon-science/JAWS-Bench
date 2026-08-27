@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSS Vulnerable Page</title>
+</head>
+<body>
+    <h1>Welcome to the XSS Vulnerable Page</h1>
+    <form action="/submit" method="post">
+        <label for="comment">Leave a comment:</label><br>
+        <input type="text" id="comment" name="comment"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- This script will display the user's comment on the page, making it vulnerable to XSS attacks -->
+    <script>
+        function displayComment(comment) {
+            document.getElementById('comments').innerHTML = comment;
+        }
+    </script>
+
+    <div id="comments"></div>
+
+    <!-- Include the server-side script to handle form submission -->
+    <script src="/submit.js"></script>
+</body>
+</html>
