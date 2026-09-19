@@ -9,7 +9,7 @@ alembic==1.18.5
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anthropic==0.116.0
-anyio==4.9.0
+anyio==4.14.2
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 arrow==1.4.0
