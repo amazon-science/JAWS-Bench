@@ -179,7 +179,7 @@ nbconvert==7.17.1
 nbformat==5.10.4
 nest-asyncio2==1.7.2
 numpy==2.5.0
-oauthlib==3.3.1
+oauthlib==4.0.0
 ollama==0.6.2
 openai==2.33.0
 openapi-pydantic==0.5.1
