@@ -48,7 +48,7 @@ comm==0.2.3
 crashtest==0.4.1
 cryptography==49.0.0
 cyclopts==4.20.0
-datasets==5.0.0
+datasets==5.0.1
 debugpy==1.8.21
 decorator==5.3.1
 defusedxml==0.7.1
