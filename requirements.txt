@@ -208,7 +208,7 @@ pbs-installer==2026.6.10
 pexpect==4.9.0
 pfzy==0.3.4
 pg8000==1.31.5
-pillow==12.3.0
+pillow==13.0.0
 pkginfo==1.12.1.2
 platformdirs==4.10.0
 playwright==1.61.0
