@@ -175,7 +175,7 @@ msgpack==1.2.1
 multidict==6.7.1
 multiprocess==0.70.19
 nbclient==0.11.0
-nbconvert==7.17.1
+nbconvert==7.17.2
 nbformat==5.10.4
 nest-asyncio2==1.7.2
 numpy==2.5.0
