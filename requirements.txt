@@ -17,7 +17,7 @@ asn1crypto==1.5.1
 asttokens==3.0.1
 asyncpg==0.31.0
 attrs==26.1.0
-Authlib==1.7.2
+Authlib==1.9.1
 backoff==2.2.1
 backports.zstd==1.6.0
 bashlex==0.18
