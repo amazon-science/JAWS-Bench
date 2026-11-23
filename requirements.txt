@@ -38,7 +38,7 @@ CacheControl==0.14.4
 cachetools==7.1.4
 caio==0.9.25
 cdp-use==1.4.5
-certifi==2026.6.17
+certifi==2026.10.18
 cffi==2.0.0
 charset-normalizer==3.4.7
 cleo==2.1.0
