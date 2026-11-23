@@ -171,7 +171,7 @@ mdurl==0.1.2
 memory-profiler==0.61.0
 mistune==3.3.2
 more-itertools==11.1.0
-msgpack==1.2.1
+msgpack==1.2.3
 multidict==6.7.1
 multiprocess==0.70.19
 nbclient==0.11.0
